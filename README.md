@@ -110,6 +110,4 @@ To facilitate full methodology reproduction and deep-learning developments in he
 * **`4x4x5_threebody/`**: Structural data sets mapping out co-adsorbed repulsions and multi-molecule three-body terms.
 * **`dpa2-finetune/`**: Global trajectory datasets compiled during active-learning iterations to fine-tune the macro-cell DPA-2 network.
 
-```
 
-```
