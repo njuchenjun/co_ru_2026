@@ -1,0 +1,138 @@
+{
+    "_comment": "that's all",
+    "model": {
+        "type_map": [
+            "Ru",
+            "C",
+            "O"
+        ],
+        "descriptor": {
+            "type": "dpa2",
+            "repinit": {
+                "tebd_dim": 64,
+                "rcut": 6.5,
+                "rcut_smth": 0.5,
+                "nsel": 120,
+                "neuron": [
+                    64,
+                    64,
+                    64
+                ],
+                "axis_neuron": 4,
+		"three_body_neuron": [32,32,32],
+                "activation_function": "tanh",
+                "three_body_sel": 40,
+                "three_body_rcut": 4.0,
+                "three_body_rcut_smth": 3.5,
+                "use_three_body": true
+            },
+            "repformer": {
+                "rcut": 4.0,
+                "rcut_smth": 3.5,
+                "nsel": 40,
+                "nlayers": 6,
+                "g1_dim": 384,
+                "g2_dim": 96,
+                "attn2_hidden": 24,
+                "attn2_nhead": 4,
+                "attn1_hidden": 128,
+                "attn1_nhead": 4,
+                "axis_neuron": 4,
+                "update_h2": false,
+                "update_g1_has_conv": true,
+                "update_g1_has_grrg": true,
+                "update_g1_has_drrd": true,
+                "update_g1_has_attn": false,
+                "update_g2_has_g1g1": false,
+                "update_g2_has_attn": true,
+                "update_style": "res_residual",
+                "update_residual": 0.01,
+                "update_residual_init": "norm",
+                "attn2_has_gate": true,
+                "use_sqrt_nnei": true,
+                "g1_out_conv": true,
+                "g1_out_mlp": true,
+		"activation_function": "tanh"
+            },
+	    "use_tebd_bias": false,
+	    "precision" : "float32",
+            "add_tebd_to_repinit_out": false
+        },
+        "fitting_net": {
+            "neuron": [
+                240,
+                240,
+                240
+            ],
+            "resnet_dt": true,
+	    "precision": "float32",
+	    "dim_case_embd": 37,
+            "seed": 1,
+            "_comment": " that's all"
+        },
+        "_comment": " that's all"
+    },
+    "learning_rate": {
+        "type": "exp",
+        "decay_steps": 42,
+        "start_lr": 0.001,
+        "stop_lr": 3.51e-08,
+        "_comment": "that's all"
+    },
+    "loss": {
+        "type": "ener",
+        "start_pref_e": 0.02,
+        "limit_pref_e": 1,
+        "start_pref_f": 1000,
+        "limit_pref_f": 100,
+        "start_pref_v": 0,
+        "limit_pref_v": 0,
+        "_comment": " that's all"
+    },
+    "training": {
+        "training_data": {
+            "systems": [
+                "./train/1CO",
+                "./train/2CO",
+                "./train/3CO",
+                "./train/4CO",
+                "./train/5CO",
+                "./train/6CO",
+                "./train/7CO",
+                "./train/8CO",
+                "./train/9CO",
+                "./train/10CO",
+                "./train/11CO",
+                "./train/12CO"
+            ],
+            "batch_size": 6,
+            "_comment": "that's all"
+        },
+        "validation_data": {
+            "systems": [
+                "./validation/1CO",
+                "./validation/2CO",
+                "./validation/3CO",
+                "./validation/4CO",
+                "./validation/5CO",
+                "./validation/6CO",
+                "./validation/7CO",
+                "./validation/8CO",
+                "./validation/9CO",
+                "./validation/10CO",
+                "./validation/11CO",
+                "./validation/12CO"
+            ],
+            "batch_size": 6,
+            "_comment": "that's all"
+        },
+        "numb_steps": 40540,
+        "warmup_steps": 0,
+        "gradient_max_norm": 5.0,
+        "seed": 10,
+        "disp_file": "lcurve.out",
+        "disp_freq": 100,
+        "save_freq": 8108,
+        "_comment": "that's all"
+    }
+}

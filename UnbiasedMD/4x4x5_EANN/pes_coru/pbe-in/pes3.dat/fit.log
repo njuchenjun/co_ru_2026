@@ -1,0 +1,431 @@
+ Fitting the PES based on the embedded atom neural network
+ Based on the idea of embeeding atomic method
+ done: readinput
+ done: allocate_all
+ done: get_index
+ 1   82   82
+ 111000  |11000
+ done: readcoor
+ the total parameter: allnw=        6150
+ the total wave parameter: wave_allnw=         297
+ number of configurations used for training        9900
+ number of AtNN           1
+ number of neuron of output layer           1
+        1.00000000       10.00000000
+ maximal angular moment L           2
+ number of GTO-type radial function    10    10    10
+      9    82   246 11000
+ Ru      33   30   30    1
+ C       33   30   30    1
+ O       33   30   30    1
+ 2025/07/26  18:29:06.88
+ Epoch      1/   200; Mu= 1.E-02; Perform= 1.600E+01 9.439E+01 / 1.470E+01 8.525E+01 meV; Val= 0/15
+ Epoch      2/   200; Mu= 1.E-01; Perform= 1.178E+01 6.332E+01 / 1.084E+01 5.903E+01 meV; Val= 0/15
+ Epoch      3/   200; Mu= 1.E-01; Perform= 8.307E+00 4.099E+01 / 7.314E+00 3.939E+01 meV; Val= 0/15
+ Epoch      4/   200; Mu= 1.E-01; Perform= 6.368E+00 3.291E+01 / 6.047E+00 3.700E+01 meV; Val= 0/15
+ Epoch      5/   200; Mu= 1.E-01; Perform= 6.149E+00 2.961E+01 / 5.808E+00 3.240E+01 meV; Val= 0/15
+ Epoch      6/   200; Mu= 1.E-01; Perform= 5.376E+00 2.370E+01 / 5.198E+00 2.998E+01 meV; Val= 0/15
+ Epoch      7/   200; Mu= 1.E-01; Perform= 5.192E+00 2.226E+01 / 5.015E+00 2.787E+01 meV; Val= 0/15
+ Epoch      8/   200; Mu= 1.E-01; Perform= 5.093E+00 2.129E+01 / 4.946E+00 2.722E+01 meV; Val= 0/15
+ Epoch      9/   200; Mu= 1.E-01; Perform= 5.020E+00 2.063E+01 / 4.896E+00 2.636E+01 meV; Val= 0/15
+ Epoch     10/   200; Mu= 1.E-01; Perform= 4.962E+00 2.016E+01 / 4.837E+00 2.515E+01 meV; Val= 0/15
+ Epoch     11/   200; Mu= 1.E-01; Perform= 4.909E+00 1.981E+01 / 4.802E+00 2.405E+01 meV; Val= 0/15
+ Epoch     12/   200; Mu= 1.E-01; Perform= 4.864E+00 1.956E+01 / 4.761E+00 2.321E+01 meV; Val= 0/15
+ Epoch     13/   200; Mu= 1.E-01; Perform= 4.818E+00 1.936E+01 / 4.749E+00 2.259E+01 meV; Val= 0/15
+ Epoch     14/   200; Mu= 1.E-01; Perform= 4.776E+00 1.914E+01 / 4.731E+00 2.236E+01 meV; Val= 0/15
+ Epoch     15/   200; Mu= 1.E-01; Perform= 4.735E+00 1.895E+01 / 4.725E+00 2.206E+01 meV; Val= 0/15
+ Epoch     16/   200; Mu= 1.E-01; Perform= 4.700E+00 1.875E+01 / 4.723E+00 2.194E+01 meV; Val= 0/15
+ Epoch     17/   200; Mu= 1.E-01; Perform= 4.671E+00 1.859E+01 / 4.724E+00 2.165E+01 meV; Val= 1/15
+ Epoch     18/   200; Mu= 1.E-01; Perform= 4.645E+00 1.844E+01 / 4.738E+00 2.148E+01 meV; Val= 2/15
+ Epoch     19/   200; Mu= 1.E-01; Perform= 4.622E+00 1.829E+01 / 4.752E+00 2.133E+01 meV; Val= 3/15
+ Epoch     20/   200; Mu= 1.E-01; Perform= 4.601E+00 1.816E+01 / 4.766E+00 2.122E+01 meV; Val= 4/15
+ Epoch     21/   200; Mu= 1.E-01; Perform= 4.582E+00 1.805E+01 / 4.780E+00 2.111E+01 meV; Val= 5/15
+ Epoch     22/   200; Mu= 1.E-01; Perform= 4.564E+00 1.793E+01 / 4.794E+00 2.099E+01 meV; Val= 6/15
+ Epoch     23/   200; Mu= 1.E-01; Perform= 4.546E+00 1.783E+01 / 4.810E+00 2.088E+01 meV; Val= 7/15
+ Epoch     24/   200; Mu= 1.E-01; Perform= 4.530E+00 1.772E+01 / 4.830E+00 2.077E+01 meV; Val= 8/15
+ Epoch     25/   200; Mu= 1.E-01; Perform= 4.514E+00 1.763E+01 / 4.857E+00 2.069E+01 meV; Val= 9/15
+ Epoch     26/   200; Mu= 1.E-01; Perform= 4.499E+00 1.753E+01 / 4.893E+00 2.062E+01 meV; Val=10/15
+ Epoch     27/   200; Mu= 1.E-01; Perform= 4.483E+00 1.745E+01 / 4.944E+00 2.058E+01 meV; Val=11/15
+ Epoch     28/   200; Mu= 1.E-01; Perform= 4.468E+00 1.736E+01 / 5.012E+00 2.056E+01 meV; Val=12/15
+ Epoch     29/   200; Mu= 1.E-01; Perform= 4.452E+00 1.729E+01 / 5.101E+00 2.057E+01 meV; Val=13/15
+ Epoch     30/   200; Mu= 1.E-01; Perform= 4.436E+00 1.721E+01 / 5.212E+00 2.061E+01 meV; Val=14/15
+ Epoch     31/   200; Mu= 1.E-01; Perform= 4.420E+00 1.714E+01 / 5.332E+00 2.066E+01 meV; Val=15/15
+ Total rmse_01=  19.0948 meV; Total force rmse_=  22.5317 meV/angstrom; train=  18.7524; validation=  21.9366force train=  22.5485; force validation=  22.3801
+ 2025/07/26  21:20:54.68
+ 2025/07/26  21:20:54.68
+ Epoch      1/   200; Mu= 1.E-03; Perform= 2.046E+01 1.338E+02 / 1.837E+01 1.169E+02 meV; Val= 0/15
+ Epoch      2/   200; Mu= 1.E-02; Perform= 1.720E+01 1.084E+02 / 1.524E+01 9.248E+01 meV; Val= 0/15
+ Epoch      3/   200; Mu= 1.E-02; Perform= 1.443E+01 8.190E+01 / 1.313E+01 8.024E+01 meV; Val= 0/15
+ Epoch      4/   200; Mu= 1.E-02; Perform= 1.372E+01 7.823E+01 / 1.216E+01 7.368E+01 meV; Val= 0/15
+ Epoch      5/   200; Mu= 1.E-02; Perform= 1.169E+01 6.928E+01 / 1.117E+01 6.312E+01 meV; Val= 0/15
+ Epoch      6/   200; Mu= 1.E-02; Perform= 9.173E+00 5.115E+01 / 8.789E+00 4.642E+01 meV; Val= 0/15
+ Epoch      7/   200; Mu= 1.E-02; Perform= 8.182E+00 4.393E+01 / 7.684E+00 4.355E+01 meV; Val= 0/15
+ Epoch      8/   200; Mu= 1.E-02; Perform= 7.135E+00 3.796E+01 / 6.881E+00 3.798E+01 meV; Val= 0/15
+ Epoch      9/   200; Mu= 1.E-02; Perform= 5.683E+00 2.708E+01 / 5.622E+00 2.933E+01 meV; Val= 0/15
+ Epoch     10/   200; Mu= 1.E-02; Perform= 5.224E+00 2.378E+01 / 5.189E+00 2.514E+01 meV; Val= 0/15
+ Epoch     11/   200; Mu= 1.E-02; Perform= 5.001E+00 2.172E+01 / 5.012E+00 2.301E+01 meV; Val= 0/15
+ Epoch     12/   200; Mu= 1.E-02; Perform= 4.858E+00 2.070E+01 / 4.883E+00 2.222E+01 meV; Val= 0/15
+ Epoch     13/   200; Mu= 1.E-02; Perform= 4.654E+00 1.903E+01 / 4.761E+00 2.123E+01 meV; Val= 0/15
+ Epoch     14/   200; Mu= 1.E-01; Perform= 4.530E+00 1.789E+01 / 4.669E+00 2.035E+01 meV; Val= 0/15
+ Epoch     15/   200; Mu= 1.E-02; Perform= 4.473E+00 1.759E+01 / 4.665E+00 2.028E+01 meV; Val= 0/15
+ Epoch     16/   200; Mu= 1.E-02; Perform= 4.409E+00 1.710E+01 / 4.604E+00 2.026E+01 meV; Val= 0/15
+ Epoch     17/   200; Mu= 1.E-02; Perform= 4.342E+00 1.655E+01 / 4.564E+00 1.948E+01 meV; Val= 0/15
+ Epoch     18/   200; Mu= 1.E-02; Perform= 4.297E+00 1.622E+01 / 4.534E+00 1.914E+01 meV; Val= 0/15
+ Epoch     19/   200; Mu= 1.E-02; Perform= 4.260E+00 1.602E+01 / 4.517E+00 1.893E+01 meV; Val= 0/15
+ Epoch     20/   200; Mu= 1.E-01; Perform= 4.246E+00 1.586E+01 / 4.516E+00 1.893E+01 meV; Val= 0/15
+ Epoch     21/   200; Mu= 1.E-02; Perform= 4.225E+00 1.575E+01 / 4.511E+00 1.875E+01 meV; Val= 0/15
+ Epoch     22/   200; Mu= 1.E-02; Perform= 4.198E+00 1.561E+01 / 4.521E+00 1.861E+01 meV; Val= 1/15
+ Epoch     23/   200; Mu= 1.E-02; Perform= 4.175E+00 1.547E+01 / 4.523E+00 1.847E+01 meV; Val= 2/15
+ Epoch     24/   200; Mu= 1.E-02; Perform= 4.153E+00 1.537E+01 / 4.536E+00 1.837E+01 meV; Val= 3/15
+ Epoch     25/   200; Mu= 1.E-02; Perform= 4.131E+00 1.527E+01 / 4.518E+00 1.829E+01 meV; Val= 0/15
+ Epoch     26/   200; Mu= 1.E-02; Perform= 4.108E+00 1.519E+01 / 4.499E+00 1.824E+01 meV; Val= 0/15
+ Epoch     27/   200; Mu= 1.E-02; Perform= 4.083E+00 1.516E+01 / 4.473E+00 1.822E+01 meV; Val= 0/15
+ Epoch     28/   200; Mu= 1.E-02; Perform= 4.051E+00 1.524E+01 / 4.456E+00 1.834E+01 meV; Val= 0/15
+ Epoch     29/   200; Mu= 1.E-02; Perform= 4.013E+00 1.519E+01 / 4.442E+00 1.847E+01 meV; Val= 0/15
+ Epoch     30/   200; Mu= 1.E-02; Perform= 3.982E+00 1.506E+01 / 4.431E+00 1.843E+01 meV; Val= 0/15
+ Epoch     31/   200; Mu= 1.E-02; Perform= 3.958E+00 1.492E+01 / 4.420E+00 1.830E+01 meV; Val= 0/15
+ Epoch     32/   200; Mu= 1.E-02; Perform= 3.938E+00 1.479E+01 / 4.413E+00 1.826E+01 meV; Val= 0/15
+ Epoch     33/   200; Mu= 1.E-02; Perform= 3.921E+00 1.467E+01 / 4.407E+00 1.818E+01 meV; Val= 0/15
+ Epoch     34/   200; Mu= 1.E-02; Perform= 3.905E+00 1.454E+01 / 4.402E+00 1.813E+01 meV; Val= 0/15
+ Epoch     35/   200; Mu= 1.E-02; Perform= 3.891E+00 1.442E+01 / 4.398E+00 1.808E+01 meV; Val= 0/15
+ Epoch     36/   200; Mu= 1.E-02; Perform= 3.877E+00 1.431E+01 / 4.392E+00 1.801E+01 meV; Val= 0/15
+ Epoch     37/   200; Mu= 1.E-02; Perform= 3.864E+00 1.420E+01 / 4.384E+00 1.792E+01 meV; Val= 0/15
+ Epoch     38/   200; Mu= 1.E-02; Perform= 3.852E+00 1.410E+01 / 4.375E+00 1.780E+01 meV; Val= 0/15
+ Epoch     39/   200; Mu= 1.E-02; Perform= 3.841E+00 1.401E+01 / 4.365E+00 1.768E+01 meV; Val= 0/15
+ Epoch     40/   200; Mu= 1.E-02; Perform= 3.831E+00 1.393E+01 / 4.354E+00 1.756E+01 meV; Val= 0/15
+ Epoch     41/   200; Mu= 1.E-02; Perform= 3.822E+00 1.385E+01 / 4.342E+00 1.744E+01 meV; Val= 0/15
+ Epoch     42/   200; Mu= 1.E-02; Perform= 3.813E+00 1.378E+01 / 4.331E+00 1.734E+01 meV; Val= 0/15
+ Epoch     43/   200; Mu= 1.E-02; Perform= 3.805E+00 1.372E+01 / 4.320E+00 1.726E+01 meV; Val= 0/15
+ Epoch     44/   200; Mu= 1.E-02; Perform= 3.798E+00 1.366E+01 / 4.312E+00 1.720E+01 meV; Val= 0/15
+ Epoch     45/   200; Mu= 1.E-02; Perform= 3.791E+00 1.361E+01 / 4.305E+00 1.716E+01 meV; Val= 0/15
+ Epoch     46/   200; Mu= 1.E-02; Perform= 3.784E+00 1.356E+01 / 4.299E+00 1.714E+01 meV; Val= 0/15
+ Epoch     47/   200; Mu= 1.E-02; Perform= 3.778E+00 1.351E+01 / 4.294E+00 1.714E+01 meV; Val= 0/15
+ Epoch     48/   200; Mu= 1.E-02; Perform= 3.772E+00 1.347E+01 / 4.289E+00 1.715E+01 meV; Val= 0/15
+ Epoch     49/   200; Mu= 1.E-02; Perform= 3.766E+00 1.343E+01 / 4.285E+00 1.717E+01 meV; Val= 0/15
+ Epoch     50/   200; Mu= 1.E-02; Perform= 3.760E+00 1.339E+01 / 4.280E+00 1.720E+01 meV; Val= 0/15
+ Epoch     51/   200; Mu= 1.E-02; Perform= 3.754E+00 1.336E+01 / 4.276E+00 1.723E+01 meV; Val= 0/15
+ Epoch     52/   200; Mu= 1.E-02; Perform= 3.748E+00 1.332E+01 / 4.272E+00 1.728E+01 meV; Val= 0/15
+ Epoch     53/   200; Mu= 1.E-02; Perform= 3.742E+00 1.329E+01 / 4.268E+00 1.732E+01 meV; Val= 0/15
+ Epoch     54/   200; Mu= 1.E-02; Perform= 3.736E+00 1.325E+01 / 4.265E+00 1.736E+01 meV; Val= 0/15
+ Epoch     55/   200; Mu= 1.E-02; Perform= 3.730E+00 1.322E+01 / 4.263E+00 1.739E+01 meV; Val= 0/15
+ Epoch     56/   200; Mu= 1.E-02; Perform= 3.725E+00 1.320E+01 / 4.261E+00 1.743E+01 meV; Val= 0/15
+ Epoch     57/   200; Mu= 1.E-02; Perform= 3.720E+00 1.317E+01 / 4.260E+00 1.746E+01 meV; Val= 0/15
+ Epoch     58/   200; Mu= 1.E-02; Perform= 3.716E+00 1.314E+01 / 4.261E+00 1.751E+01 meV; Val= 1/15
+ Epoch     59/   200; Mu= 1.E-02; Perform= 3.711E+00 1.311E+01 / 4.262E+00 1.755E+01 meV; Val= 2/15
+ Epoch     60/   200; Mu= 1.E-02; Perform= 3.707E+00 1.308E+01 / 4.264E+00 1.760E+01 meV; Val= 3/15
+ Epoch     61/   200; Mu= 1.E-02; Perform= 3.703E+00 1.305E+01 / 4.267E+00 1.766E+01 meV; Val= 4/15
+ Epoch     62/   200; Mu= 1.E-02; Perform= 3.699E+00 1.303E+01 / 4.271E+00 1.772E+01 meV; Val= 5/15
+ Epoch     63/   200; Mu= 1.E-02; Perform= 3.695E+00 1.300E+01 / 4.276E+00 1.779E+01 meV; Val= 6/15
+ Epoch     64/   200; Mu= 1.E-02; Perform= 3.691E+00 1.298E+01 / 4.282E+00 1.786E+01 meV; Val= 7/15
+ Epoch     65/   200; Mu= 1.E-02; Perform= 3.687E+00 1.295E+01 / 4.289E+00 1.794E+01 meV; Val= 8/15
+ Epoch     66/   200; Mu= 1.E-02; Perform= 3.684E+00 1.293E+01 / 4.296E+00 1.802E+01 meV; Val= 9/15
+ Epoch     67/   200; Mu= 1.E-02; Perform= 3.680E+00 1.291E+01 / 4.304E+00 1.809E+01 meV; Val=10/15
+ Epoch     68/   200; Mu= 1.E-02; Perform= 3.677E+00 1.288E+01 / 4.313E+00 1.817E+01 meV; Val=11/15
+ Epoch     69/   200; Mu= 1.E-02; Perform= 3.674E+00 1.286E+01 / 4.321E+00 1.824E+01 meV; Val=12/15
+ Epoch     70/   200; Mu= 1.E-02; Perform= 3.671E+00 1.285E+01 / 4.330E+00 1.830E+01 meV; Val=13/15
+ Epoch     71/   200; Mu= 1.E-02; Perform= 3.668E+00 1.283E+01 / 4.338E+00 1.836E+01 meV; Val=14/15
+ Epoch     72/   200; Mu= 1.E-02; Perform= 3.665E+00 1.281E+01 / 4.345E+00 1.841E+01 meV; Val=15/15
+ Total rmse_02=  13.6569 meV; Total force rmse_=  18.2351 meV/angstrom; train=  13.1660; validation=  17.4645force train=  17.9785; force validation=  20.3996
+ 2025/07/27  03:57:01.63
+ 2025/07/27  03:57:01.63
+ Epoch      1/   200; Mu= 1.E-02; Perform= 1.668E+01 1.129E+02 / 1.659E+01 1.091E+02 meV; Val= 0/15
+ Epoch      2/   200; Mu= 1.E-03; Perform= 1.559E+01 9.839E+01 / 1.473E+01 9.903E+01 meV; Val= 0/15
+ Epoch      3/   200; Mu= 1.E-02; Perform= 1.249E+01 7.619E+01 / 1.207E+01 6.789E+01 meV; Val= 0/15
+ Epoch      4/   200; Mu= 1.E-02; Perform= 1.080E+01 6.854E+01 / 1.078E+01 6.219E+01 meV; Val= 0/15
+ Epoch      5/   200; Mu= 1.E-02; Perform= 9.421E+00 6.031E+01 / 9.988E+00 5.760E+01 meV; Val= 0/15
+ Epoch      6/   200; Mu= 1.E-02; Perform= 8.930E+00 5.218E+01 / 9.315E+00 4.749E+01 meV; Val= 0/15
+ Epoch      7/   200; Mu= 1.E-02; Perform= 8.695E+00 5.201E+01 / 9.313E+00 4.292E+01 meV; Val= 0/15
+ Epoch      8/   200; Mu= 1.E-02; Perform= 7.649E+00 4.383E+01 / 8.699E+00 4.216E+01 meV; Val= 0/15
+ Epoch      9/   200; Mu= 1.E-01; Perform= 5.468E+00 2.624E+01 / 7.211E+00 2.775E+01 meV; Val= 0/15
+ Epoch     10/   200; Mu= 1.E-01; Perform= 4.854E+00 2.084E+01 / 6.767E+00 2.301E+01 meV; Val= 0/15
+ Epoch     11/   200; Mu= 1.E-01; Perform= 4.767E+00 2.010E+01 / 6.723E+00 2.248E+01 meV; Val= 0/15
+ Epoch     12/   200; Mu= 1.E-01; Perform= 4.730E+00 1.984E+01 / 6.690E+00 2.228E+01 meV; Val= 0/15
+ Epoch     13/   200; Mu= 1.E-01; Perform= 4.703E+00 1.964E+01 / 6.669E+00 2.214E+01 meV; Val= 0/15
+ Epoch     14/   200; Mu= 1.E-01; Perform= 4.680E+00 1.947E+01 / 6.651E+00 2.199E+01 meV; Val= 0/15
+ Epoch     15/   200; Mu= 1.E-01; Perform= 4.660E+00 1.932E+01 / 6.635E+00 2.185E+01 meV; Val= 0/15
+ Epoch     16/   200; Mu= 1.E-01; Perform= 4.641E+00 1.919E+01 / 6.622E+00 2.171E+01 meV; Val= 0/15
+ Epoch     17/   200; Mu= 1.E-01; Perform= 4.624E+00 1.906E+01 / 6.610E+00 2.157E+01 meV; Val= 0/15
+ Epoch     18/   200; Mu= 1.E-01; Perform= 4.608E+00 1.894E+01 / 6.599E+00 2.144E+01 meV; Val= 0/15
+ Epoch     19/   200; Mu= 1.E-02; Perform= 4.607E+00 1.953E+01 / 6.598E+00 2.158E+01 meV; Val= 0/15
+ Epoch     20/   200; Mu= 1.E-02; Perform= 4.499E+00 1.828E+01 / 6.545E+00 2.070E+01 meV; Val= 0/15
+ Epoch     21/   200; Mu= 1.E-02; Perform= 4.439E+00 1.772E+01 / 6.499E+00 2.041E+01 meV; Val= 0/15
+ Epoch     22/   200; Mu= 1.E-02; Perform= 4.385E+00 1.723E+01 / 6.461E+00 1.975E+01 meV; Val= 0/15
+ Epoch     23/   200; Mu= 1.E-02; Perform= 4.342E+00 1.680E+01 / 6.431E+00 1.951E+01 meV; Val= 0/15
+ Epoch     24/   200; Mu= 1.E-02; Perform= 4.306E+00 1.647E+01 / 6.417E+00 1.946E+01 meV; Val= 0/15
+ Epoch     25/   200; Mu= 1.E-02; Perform= 4.269E+00 1.616E+01 / 6.399E+00 1.944E+01 meV; Val= 0/15
+ Epoch     26/   200; Mu= 1.E-02; Perform= 4.238E+00 1.594E+01 / 6.390E+00 1.934E+01 meV; Val= 0/15
+ Epoch     27/   200; Mu= 1.E-02; Perform= 4.210E+00 1.580E+01 / 6.379E+00 1.922E+01 meV; Val= 0/15
+ Epoch     28/   200; Mu= 1.E-02; Perform= 4.184E+00 1.567E+01 / 6.373E+00 1.904E+01 meV; Val= 0/15
+ Epoch     29/   200; Mu= 1.E-02; Perform= 4.159E+00 1.554E+01 / 6.369E+00 1.892E+01 meV; Val= 0/15
+ Epoch     30/   200; Mu= 1.E-02; Perform= 4.134E+00 1.542E+01 / 6.366E+00 1.882E+01 meV; Val= 0/15
+ Epoch     31/   200; Mu= 1.E-02; Perform= 4.111E+00 1.531E+01 / 6.362E+00 1.873E+01 meV; Val= 0/15
+ Epoch     32/   200; Mu= 1.E-02; Perform= 4.086E+00 1.522E+01 / 6.360E+00 1.874E+01 meV; Val= 0/15
+ Epoch     33/   200; Mu= 1.E-02; Perform= 4.061E+00 1.514E+01 / 6.360E+00 1.878E+01 meV; Val= 0/15
+ Epoch     34/   200; Mu= 1.E-02; Perform= 4.035E+00 1.514E+01 / 6.354E+00 1.894E+01 meV; Val= 0/15
+ Epoch     35/   200; Mu= 1.E-02; Perform= 4.019E+00 1.496E+01 / 6.344E+00 1.885E+01 meV; Val= 0/15
+ Epoch     36/   200; Mu= 1.E-02; Perform= 4.018E+00 1.535E+01 / 6.342E+00 1.887E+01 meV; Val= 0/15
+ Epoch     37/   200; Mu= 1.E-02; Perform= 4.012E+00 1.479E+01 / 6.328E+00 1.889E+01 meV; Val= 0/15
+ Epoch     38/   200; Mu= 1.E-01; Perform= 4.006E+00 1.529E+01 / 6.342E+00 1.906E+01 meV; Val= 1/15
+ Epoch     39/   200; Mu= 1.E-02; Perform= 3.993E+00 1.470E+01 / 6.326E+00 1.888E+01 meV; Val= 0/15
+ Epoch     40/   200; Mu= 1.E-01; Perform= 3.977E+00 1.503E+01 / 6.337E+00 1.914E+01 meV; Val= 1/15
+ Epoch     41/   200; Mu= 1.E-02; Perform= 3.971E+00 1.466E+01 / 6.328E+00 1.892E+01 meV; Val= 0/15
+ Epoch     42/   200; Mu= 1.E-02; Perform= 3.961E+00 1.523E+01 / 6.324E+00 1.908E+01 meV; Val= 0/15
+ Epoch     43/   200; Mu= 1.E-02; Perform= 3.953E+00 1.445E+01 / 6.317E+00 1.910E+01 meV; Val= 0/15
+ Epoch     44/   200; Mu= 1.E-02; Perform= 3.940E+00 1.511E+01 / 6.315E+00 1.935E+01 meV; Val= 0/15
+ Epoch     45/   200; Mu= 1.E-02; Perform= 3.930E+00 1.430E+01 / 6.311E+00 1.922E+01 meV; Val= 0/15
+ Epoch     46/   200; Mu= 1.E-02; Perform= 3.902E+00 1.485E+01 / 6.311E+00 1.949E+01 meV; Val= 1/15
+ Epoch     47/   200; Mu= 1.E-01; Perform= 3.897E+00 1.420E+01 / 6.310E+00 1.920E+01 meV; Val= 0/15
+ Epoch     48/   200; Mu= 1.E-02; Perform= 3.875E+00 1.450E+01 / 6.308E+00 1.937E+01 meV; Val= 0/15
+ Epoch     49/   200; Mu= 1.E+00; Perform= 3.874E+00 1.419E+01 / 6.305E+00 1.919E+01 meV; Val= 0/15
+ Epoch     50/   200; Mu= 1.E-01; Perform= 3.869E+00 1.435E+01 / 6.306E+00 1.928E+01 meV; Val= 1/15
+ Epoch     51/   200; Mu= 1.E-02; Perform= 3.861E+00 1.415E+01 / 6.306E+00 1.928E+01 meV; Val= 0/15
+ Epoch     52/   200; Mu= 1.E-02; Perform= 3.850E+00 1.417E+01 / 6.305E+00 1.929E+01 meV; Val= 0/15
+ Epoch     53/   200; Mu= 1.E-02; Perform= 3.842E+00 1.405E+01 / 6.304E+00 1.929E+01 meV; Val= 0/15
+ Epoch     54/   200; Mu= 1.E-02; Perform= 3.834E+00 1.401E+01 / 6.303E+00 1.926E+01 meV; Val= 0/15
+ Epoch     55/   200; Mu= 1.E-02; Perform= 3.827E+00 1.394E+01 / 6.303E+00 1.923E+01 meV; Val= 0/15
+ Epoch     56/   200; Mu= 1.E-02; Perform= 3.821E+00 1.388E+01 / 6.303E+00 1.920E+01 meV; Val= 1/15
+ Epoch     57/   200; Mu= 1.E-02; Perform= 3.815E+00 1.383E+01 / 6.304E+00 1.916E+01 meV; Val= 2/15
+ Epoch     58/   200; Mu= 1.E-02; Perform= 3.809E+00 1.378E+01 / 6.305E+00 1.912E+01 meV; Val= 3/15
+ Epoch     59/   200; Mu= 1.E-02; Perform= 3.803E+00 1.374E+01 / 6.306E+00 1.908E+01 meV; Val= 4/15
+ Epoch     60/   200; Mu= 1.E-02; Perform= 3.798E+00 1.369E+01 / 6.307E+00 1.904E+01 meV; Val= 5/15
+ Epoch     61/   200; Mu= 1.E-02; Perform= 3.793E+00 1.365E+01 / 6.308E+00 1.900E+01 meV; Val= 6/15
+ Epoch     62/   200; Mu= 1.E-02; Perform= 3.788E+00 1.362E+01 / 6.309E+00 1.896E+01 meV; Val= 7/15
+ Epoch     63/   200; Mu= 1.E-02; Perform= 3.783E+00 1.359E+01 / 6.310E+00 1.891E+01 meV; Val= 8/15
+ Epoch     64/   200; Mu= 1.E-02; Perform= 3.779E+00 1.356E+01 / 6.310E+00 1.886E+01 meV; Val= 9/15
+ Epoch     65/   200; Mu= 1.E-02; Perform= 3.775E+00 1.353E+01 / 6.310E+00 1.881E+01 meV; Val= 0/15
+ Epoch     66/   200; Mu= 1.E-02; Perform= 3.770E+00 1.350E+01 / 6.309E+00 1.875E+01 meV; Val= 0/15
+ Epoch     67/   200; Mu= 1.E-02; Perform= 3.766E+00 1.348E+01 / 6.309E+00 1.869E+01 meV; Val= 0/15
+ Epoch     68/   200; Mu= 1.E-02; Perform= 3.763E+00 1.345E+01 / 6.307E+00 1.863E+01 meV; Val= 0/15
+ Epoch     69/   200; Mu= 1.E-02; Perform= 3.759E+00 1.343E+01 / 6.306E+00 1.857E+01 meV; Val= 0/15
+ Epoch     70/   200; Mu= 1.E-02; Perform= 3.755E+00 1.341E+01 / 6.305E+00 1.851E+01 meV; Val= 0/15
+ Epoch     71/   200; Mu= 1.E-02; Perform= 3.752E+00 1.339E+01 / 6.304E+00 1.846E+01 meV; Val= 0/15
+ Epoch     72/   200; Mu= 1.E-02; Perform= 3.748E+00 1.337E+01 / 6.303E+00 1.840E+01 meV; Val= 0/15
+ Epoch     73/   200; Mu= 1.E-02; Perform= 3.745E+00 1.335E+01 / 6.302E+00 1.836E+01 meV; Val= 0/15
+ Epoch     74/   200; Mu= 1.E-02; Perform= 3.742E+00 1.333E+01 / 6.301E+00 1.831E+01 meV; Val= 0/15
+ Epoch     75/   200; Mu= 1.E-02; Perform= 3.739E+00 1.331E+01 / 6.301E+00 1.828E+01 meV; Val= 0/15
+ Epoch     76/   200; Mu= 1.E-02; Perform= 3.736E+00 1.329E+01 / 6.301E+00 1.824E+01 meV; Val= 1/15
+ Epoch     77/   200; Mu= 1.E-02; Perform= 3.733E+00 1.327E+01 / 6.302E+00 1.821E+01 meV; Val= 2/15
+ Epoch     78/   200; Mu= 1.E-02; Perform= 3.730E+00 1.325E+01 / 6.303E+00 1.818E+01 meV; Val= 3/15
+ Epoch     79/   200; Mu= 1.E-02; Perform= 3.727E+00 1.324E+01 / 6.304E+00 1.815E+01 meV; Val= 4/15
+ Epoch     80/   200; Mu= 1.E-02; Perform= 3.724E+00 1.322E+01 / 6.305E+00 1.813E+01 meV; Val= 5/15
+ Epoch     81/   200; Mu= 1.E-02; Perform= 3.721E+00 1.320E+01 / 6.306E+00 1.810E+01 meV; Val= 6/15
+ Epoch     82/   200; Mu= 1.E-02; Perform= 3.719E+00 1.318E+01 / 6.308E+00 1.808E+01 meV; Val= 7/15
+ Epoch     83/   200; Mu= 1.E-02; Perform= 3.716E+00 1.316E+01 / 6.310E+00 1.807E+01 meV; Val= 8/15
+ Epoch     84/   200; Mu= 1.E-02; Perform= 3.714E+00 1.314E+01 / 6.311E+00 1.805E+01 meV; Val= 9/15
+ Epoch     85/   200; Mu= 1.E-02; Perform= 3.711E+00 1.313E+01 / 6.313E+00 1.804E+01 meV; Val=10/15
+ Epoch     86/   200; Mu= 1.E-02; Perform= 3.709E+00 1.311E+01 / 6.314E+00 1.802E+01 meV; Val=11/15
+ Epoch     87/   200; Mu= 1.E-02; Perform= 3.707E+00 1.309E+01 / 6.315E+00 1.801E+01 meV; Val=12/15
+ Epoch     88/   200; Mu= 1.E-02; Perform= 3.704E+00 1.307E+01 / 6.316E+00 1.800E+01 meV; Val=13/15
+ Epoch     89/   200; Mu= 1.E-02; Perform= 3.702E+00 1.306E+01 / 6.317E+00 1.799E+01 meV; Val=14/15
+ Epoch     90/   200; Mu= 1.E-02; Perform= 3.700E+00 1.304E+01 / 6.318E+00 1.798E+01 meV; Val=15/15
+ Total rmse_03=  13.8867 meV; Total force rmse_=  19.6962 meV/angstrom; train=  13.3100; validation=  18.2758force train=  18.0614; force validation=  30.7161
+ 2025/07/27  12:30:04.57
+ 2025/07/27  12:30:04.57
+ Epoch      1/   200; Mu= 1.E-02; Perform= 1.736E+01 1.112E+02 / 1.922E+01 1.207E+02 meV; Val= 0/15
+ Epoch      2/   200; Mu= 1.E-02; Perform= 1.526E+01 9.824E+01 / 1.622E+01 9.769E+01 meV; Val= 0/15
+ Epoch      3/   200; Mu= 1.E-02; Perform= 1.290E+01 7.564E+01 / 1.422E+01 8.866E+01 meV; Val= 0/15
+ Epoch      4/   200; Mu= 1.E-02; Perform= 1.233E+01 7.423E+01 / 1.356E+01 7.607E+01 meV; Val= 0/15
+ Epoch      5/   200; Mu= 1.E-02; Perform= 1.229E+01 7.490E+01 / 1.353E+01 8.582E+01 meV; Val= 0/15
+ Epoch      6/   200; Mu= 1.E-02; Perform= 1.142E+01 6.652E+01 / 1.260E+01 6.616E+01 meV; Val= 0/15
+ Epoch      7/   200; Mu= 1.E-02; Perform= 9.413E+00 5.668E+01 / 1.056E+01 6.182E+01 meV; Val= 0/15
+ Epoch      8/   200; Mu= 1.E-01; Perform= 6.309E+00 3.260E+01 / 7.839E+00 3.445E+01 meV; Val= 0/15
+ Epoch      9/   200; Mu= 1.E-01; Perform= 5.489E+00 2.707E+01 / 7.216E+00 2.714E+01 meV; Val= 0/15
+ Epoch     10/   200; Mu= 1.E-01; Perform= 4.986E+00 2.223E+01 / 6.932E+00 2.534E+01 meV; Val= 0/15
+ Epoch     11/   200; Mu= 1.E-01; Perform= 4.836E+00 2.112E+01 / 6.835E+00 2.468E+01 meV; Val= 0/15
+ Epoch     12/   200; Mu= 1.E-01; Perform= 4.781E+00 2.058E+01 / 6.823E+00 2.445E+01 meV; Val= 0/15
+ Epoch     13/   200; Mu= 1.E-01; Perform= 4.743E+00 2.026E+01 / 6.806E+00 2.424E+01 meV; Val= 0/15
+ Epoch     14/   200; Mu= 1.E-01; Perform= 4.709E+00 1.996E+01 / 6.792E+00 2.402E+01 meV; Val= 0/15
+ Epoch     15/   200; Mu= 1.E-01; Perform= 4.680E+00 1.970E+01 / 6.780E+00 2.383E+01 meV; Val= 0/15
+ Epoch     16/   200; Mu= 1.E-01; Perform= 4.654E+00 1.947E+01 / 6.773E+00 2.366E+01 meV; Val= 0/15
+ Epoch     17/   200; Mu= 1.E-01; Perform= 4.629E+00 1.926E+01 / 6.769E+00 2.348E+01 meV; Val= 0/15
+ Epoch     18/   200; Mu= 1.E-01; Perform= 4.607E+00 1.906E+01 / 6.767E+00 2.332E+01 meV; Val= 0/15
+ Epoch     19/   200; Mu= 1.E-01; Perform= 4.586E+00 1.889E+01 / 6.767E+00 2.316E+01 meV; Val= 0/15
+ Epoch     20/   200; Mu= 1.E-01; Perform= 4.567E+00 1.873E+01 / 6.767E+00 2.302E+01 meV; Val= 1/15
+ Epoch     21/   200; Mu= 1.E-01; Perform= 4.549E+00 1.858E+01 / 6.768E+00 2.288E+01 meV; Val= 2/15
+ Epoch     22/   200; Mu= 1.E-01; Perform= 4.532E+00 1.844E+01 / 6.768E+00 2.275E+01 meV; Val= 3/15
+ Epoch     23/   200; Mu= 1.E-01; Perform= 4.515E+00 1.831E+01 / 6.768E+00 2.263E+01 meV; Val= 0/15
+ Epoch     24/   200; Mu= 1.E-01; Perform= 4.500E+00 1.820E+01 / 6.768E+00 2.252E+01 meV; Val= 0/15
+ Epoch     25/   200; Mu= 1.E-01; Perform= 4.486E+00 1.809E+01 / 6.766E+00 2.241E+01 meV; Val= 0/15
+ Epoch     26/   200; Mu= 1.E-01; Perform= 4.472E+00 1.799E+01 / 6.764E+00 2.232E+01 meV; Val= 0/15
+ Epoch     27/   200; Mu= 1.E-01; Perform= 4.459E+00 1.790E+01 / 6.760E+00 2.223E+01 meV; Val= 0/15
+ Epoch     28/   200; Mu= 1.E-01; Perform= 4.447E+00 1.781E+01 / 6.756E+00 2.216E+01 meV; Val= 0/15
+ Epoch     29/   200; Mu= 1.E-01; Perform= 4.435E+00 1.773E+01 / 6.750E+00 2.210E+01 meV; Val= 0/15
+ Epoch     30/   200; Mu= 1.E-01; Perform= 4.424E+00 1.764E+01 / 6.743E+00 2.204E+01 meV; Val= 0/15
+ Epoch     31/   200; Mu= 1.E-01; Perform= 4.413E+00 1.757E+01 / 6.735E+00 2.199E+01 meV; Val= 0/15
+ Epoch     32/   200; Mu= 1.E-01; Perform= 4.403E+00 1.749E+01 / 6.727E+00 2.195E+01 meV; Val= 0/15
+ Epoch     33/   200; Mu= 1.E-01; Perform= 4.393E+00 1.741E+01 / 6.719E+00 2.192E+01 meV; Val= 0/15
+ Epoch     34/   200; Mu= 1.E-01; Perform= 4.383E+00 1.734E+01 / 6.711E+00 2.188E+01 meV; Val= 0/15
+ Epoch     35/   200; Mu= 1.E-01; Perform= 4.374E+00 1.727E+01 / 6.703E+00 2.184E+01 meV; Val= 0/15
+ Epoch     36/   200; Mu= 1.E-01; Perform= 4.365E+00 1.720E+01 / 6.696E+00 2.179E+01 meV; Val= 0/15
+ Epoch     37/   200; Mu= 1.E-01; Perform= 4.356E+00 1.713E+01 / 6.690E+00 2.173E+01 meV; Val= 0/15
+ Epoch     38/   200; Mu= 1.E-01; Perform= 4.348E+00 1.706E+01 / 6.684E+00 2.167E+01 meV; Val= 0/15
+ Epoch     39/   200; Mu= 1.E-01; Perform= 4.340E+00 1.699E+01 / 6.679E+00 2.160E+01 meV; Val= 0/15
+ Epoch     40/   200; Mu= 1.E-01; Perform= 4.332E+00 1.692E+01 / 6.674E+00 2.152E+01 meV; Val= 0/15
+ Epoch     41/   200; Mu= 1.E-01; Perform= 4.325E+00 1.686E+01 / 6.670E+00 2.144E+01 meV; Val= 0/15
+ Epoch     42/   200; Mu= 1.E-01; Perform= 4.318E+00 1.680E+01 / 6.667E+00 2.136E+01 meV; Val= 0/15
+ Epoch     43/   200; Mu= 1.E-01; Perform= 4.311E+00 1.674E+01 / 6.664E+00 2.128E+01 meV; Val= 0/15
+ Epoch     44/   200; Mu= 1.E-01; Perform= 4.304E+00 1.668E+01 / 6.662E+00 2.120E+01 meV; Val= 0/15
+ Epoch     45/   200; Mu= 1.E-01; Perform= 4.297E+00 1.662E+01 / 6.660E+00 2.113E+01 meV; Val= 0/15
+ Epoch     46/   200; Mu= 1.E-01; Perform= 4.291E+00 1.656E+01 / 6.659E+00 2.105E+01 meV; Val= 0/15
+ Epoch     47/   200; Mu= 1.E-02; Perform= 4.290E+00 1.677E+01 / 6.675E+00 2.174E+01 meV; Val= 1/15
+ Epoch     48/   200; Mu= 1.E-02; Perform= 4.230E+00 1.608E+01 / 6.671E+00 2.098E+01 meV; Val= 0/15
+ Epoch     49/   200; Mu= 1.E-02; Perform= 4.196E+00 1.587E+01 / 6.666E+00 2.057E+01 meV; Val= 0/15
+ Epoch     50/   200; Mu= 1.E-02; Perform= 4.168E+00 1.564E+01 / 6.656E+00 2.019E+01 meV; Val= 0/15
+ Epoch     51/   200; Mu= 1.E-02; Perform= 4.140E+00 1.536E+01 / 6.658E+00 2.001E+01 meV; Val= 1/15
+ Epoch     52/   200; Mu= 1.E-02; Perform= 4.116E+00 1.514E+01 / 6.663E+00 1.997E+01 meV; Val= 2/15
+ Epoch     53/   200; Mu= 1.E-02; Perform= 4.096E+00 1.499E+01 / 6.667E+00 1.996E+01 meV; Val= 3/15
+ Epoch     54/   200; Mu= 1.E-02; Perform= 4.078E+00 1.488E+01 / 6.669E+00 1.986E+01 meV; Val= 4/15
+ Epoch     55/   200; Mu= 1.E-02; Perform= 4.062E+00 1.478E+01 / 6.665E+00 1.966E+01 meV; Val= 0/15
+ Epoch     56/   200; Mu= 1.E-02; Perform= 4.048E+00 1.469E+01 / 6.660E+00 1.942E+01 meV; Val= 0/15
+ Epoch     57/   200; Mu= 1.E-02; Perform= 4.035E+00 1.460E+01 / 6.653E+00 1.921E+01 meV; Val= 0/15
+ Epoch     58/   200; Mu= 1.E-02; Perform= 4.022E+00 1.452E+01 / 6.647E+00 1.904E+01 meV; Val= 0/15
+ Epoch     59/   200; Mu= 1.E-02; Perform= 4.011E+00 1.444E+01 / 6.640E+00 1.892E+01 meV; Val= 0/15
+ Epoch     60/   200; Mu= 1.E-02; Perform= 3.999E+00 1.437E+01 / 6.634E+00 1.882E+01 meV; Val= 0/15
+ Epoch     61/   200; Mu= 1.E-02; Perform= 3.988E+00 1.431E+01 / 6.630E+00 1.872E+01 meV; Val= 0/15
+ Epoch     62/   200; Mu= 1.E-02; Perform= 3.977E+00 1.424E+01 / 6.628E+00 1.862E+01 meV; Val= 0/15
+ Epoch     63/   200; Mu= 1.E-02; Perform= 3.966E+00 1.418E+01 / 6.629E+00 1.852E+01 meV; Val= 1/15
+ Epoch     64/   200; Mu= 1.E-02; Perform= 3.956E+00 1.412E+01 / 6.633E+00 1.845E+01 meV; Val= 2/15
+ Epoch     65/   200; Mu= 1.E-02; Perform= 3.945E+00 1.407E+01 / 6.643E+00 1.843E+01 meV; Val= 3/15
+ Epoch     66/   200; Mu= 1.E-02; Perform= 3.934E+00 1.401E+01 / 6.660E+00 1.847E+01 meV; Val= 4/15
+ Epoch     67/   200; Mu= 1.E-02; Perform= 3.922E+00 1.396E+01 / 6.686E+00 1.857E+01 meV; Val= 5/15
+ Epoch     68/   200; Mu= 1.E-02; Perform= 3.911E+00 1.391E+01 / 6.718E+00 1.872E+01 meV; Val= 6/15
+ Epoch     69/   200; Mu= 1.E-02; Perform= 3.899E+00 1.388E+01 / 6.755E+00 1.890E+01 meV; Val= 7/15
+ Epoch     70/   200; Mu= 1.E-02; Perform= 3.887E+00 1.386E+01 / 6.797E+00 1.908E+01 meV; Val= 8/15
+ Epoch     71/   200; Mu= 1.E-02; Perform= 3.873E+00 1.386E+01 / 6.843E+00 1.923E+01 meV; Val= 9/15
+ Epoch     72/   200; Mu= 1.E-02; Perform= 3.859E+00 1.387E+01 / 6.889E+00 1.934E+01 meV; Val=10/15
+ Epoch     73/   200; Mu= 1.E-02; Perform= 3.843E+00 1.388E+01 / 6.934E+00 1.937E+01 meV; Val=11/15
+ Epoch     74/   200; Mu= 1.E-02; Perform= 3.828E+00 1.388E+01 / 6.978E+00 1.934E+01 meV; Val=12/15
+ Epoch     75/   200; Mu= 1.E-02; Perform= 3.814E+00 1.386E+01 / 7.023E+00 1.932E+01 meV; Val=13/15
+ Epoch     76/   200; Mu= 1.E-02; Perform= 3.802E+00 1.382E+01 / 7.070E+00 1.936E+01 meV; Val=14/15
+ Epoch     77/   200; Mu= 1.E-02; Perform= 3.791E+00 1.377E+01 / 7.119E+00 1.948E+01 meV; Val=15/15
+ Total rmse_04=  14.7385 meV; Total force rmse_=  20.8954 meV/angstrom; train=  14.2425; validation=  18.6174force train=  19.2066; force validation=  32.3438
+ 2025/07/27  20:01:37.41
+ 2025/07/27  20:01:37.41
+ Epoch      1/   200; Mu= 1.E-03; Perform= 1.957E+01 1.200E+02 / 1.977E+01 1.373E+02 meV; Val= 0/15
+ Epoch      2/   200; Mu= 1.E-02; Perform= 1.684E+01 1.197E+02 / 1.721E+01 1.225E+02 meV; Val= 0/15
+ Epoch      3/   200; Mu= 1.E-02; Perform= 1.205E+01 7.747E+01 / 1.221E+01 7.965E+01 meV; Val= 0/15
+ Epoch      4/   200; Mu= 1.E-02; Perform= 1.140E+01 7.221E+01 / 1.103E+01 7.115E+01 meV; Val= 0/15
+ Epoch      5/   200; Mu= 1.E-01; Perform= 7.247E+00 4.048E+01 / 6.969E+00 3.800E+01 meV; Val= 0/15
+ Epoch      6/   200; Mu= 1.E-01; Perform= 5.781E+00 2.664E+01 / 5.596E+00 2.829E+01 meV; Val= 0/15
+ Epoch      7/   200; Mu= 1.E-01; Perform= 5.346E+00 2.339E+01 / 5.238E+00 2.445E+01 meV; Val= 0/15
+ Epoch      8/   200; Mu= 1.E-01; Perform= 5.238E+00 2.246E+01 / 5.113E+00 2.351E+01 meV; Val= 0/15
+ Epoch      9/   200; Mu= 1.E-01; Perform= 5.151E+00 2.170E+01 / 5.069E+00 2.315E+01 meV; Val= 0/15
+ Epoch     10/   200; Mu= 1.E-01; Perform= 5.094E+00 2.119E+01 / 5.022E+00 2.283E+01 meV; Val= 0/15
+ Epoch     11/   200; Mu= 1.E-01; Perform= 5.048E+00 2.078E+01 / 4.994E+00 2.244E+01 meV; Val= 0/15
+ Epoch     12/   200; Mu= 1.E-01; Perform= 5.010E+00 2.044E+01 / 4.965E+00 2.206E+01 meV; Val= 0/15
+ Epoch     13/   200; Mu= 1.E-01; Perform= 4.976E+00 2.015E+01 / 4.939E+00 2.173E+01 meV; Val= 0/15
+ Epoch     14/   200; Mu= 1.E-01; Perform= 4.945E+00 1.990E+01 / 4.914E+00 2.142E+01 meV; Val= 0/15
+ Epoch     15/   200; Mu= 1.E-01; Perform= 4.916E+00 1.968E+01 / 4.892E+00 2.116E+01 meV; Val= 0/15
+ Epoch     16/   200; Mu= 1.E-01; Perform= 4.889E+00 1.948E+01 / 4.871E+00 2.092E+01 meV; Val= 0/15
+ Epoch     17/   200; Mu= 1.E-01; Perform= 4.863E+00 1.930E+01 / 4.852E+00 2.071E+01 meV; Val= 0/15
+ Epoch     18/   200; Mu= 1.E-01; Perform= 4.838E+00 1.914E+01 / 4.835E+00 2.052E+01 meV; Val= 0/15
+ Epoch     19/   200; Mu= 1.E-01; Perform= 4.813E+00 1.901E+01 / 4.819E+00 2.036E+01 meV; Val= 0/15
+ Epoch     20/   200; Mu= 1.E-01; Perform= 4.788E+00 1.888E+01 / 4.805E+00 2.022E+01 meV; Val= 0/15
+ Epoch     21/   200; Mu= 1.E-01; Perform= 4.763E+00 1.878E+01 / 4.792E+00 2.009E+01 meV; Val= 0/15
+ Epoch     22/   200; Mu= 1.E-01; Perform= 4.739E+00 1.868E+01 / 4.780E+00 1.997E+01 meV; Val= 0/15
+ Epoch     23/   200; Mu= 1.E-01; Perform= 4.714E+00 1.860E+01 / 4.767E+00 1.986E+01 meV; Val= 0/15
+ Epoch     24/   200; Mu= 1.E-01; Perform= 4.688E+00 1.854E+01 / 4.755E+00 1.974E+01 meV; Val= 0/15
+ Epoch     25/   200; Mu= 1.E-01; Perform= 4.661E+00 1.850E+01 / 4.743E+00 1.962E+01 meV; Val= 0/15
+ Epoch     26/   200; Mu= 1.E-01; Perform= 4.634E+00 1.847E+01 / 4.733E+00 1.951E+01 meV; Val= 0/15
+ Epoch     27/   200; Mu= 1.E-01; Perform= 4.606E+00 1.845E+01 / 4.725E+00 1.940E+01 meV; Val= 0/15
+ Epoch     28/   200; Mu= 1.E-01; Perform= 4.579E+00 1.843E+01 / 4.719E+00 1.932E+01 meV; Val= 0/15
+ Epoch     29/   200; Mu= 1.E-01; Perform= 4.555E+00 1.840E+01 / 4.713E+00 1.925E+01 meV; Val= 0/15
+ Epoch     30/   200; Mu= 1.E-01; Perform= 4.533E+00 1.835E+01 / 4.707E+00 1.920E+01 meV; Val= 0/15
+ Epoch     31/   200; Mu= 1.E-01; Perform= 4.514E+00 1.830E+01 / 4.700E+00 1.915E+01 meV; Val= 0/15
+ Epoch     32/   200; Mu= 1.E-01; Perform= 4.496E+00 1.823E+01 / 4.694E+00 1.910E+01 meV; Val= 0/15
+ Epoch     33/   200; Mu= 1.E-01; Perform= 4.480E+00 1.816E+01 / 4.688E+00 1.906E+01 meV; Val= 0/15
+ Epoch     34/   200; Mu= 1.E-01; Perform= 4.466E+00 1.808E+01 / 4.684E+00 1.902E+01 meV; Val= 0/15
+ Epoch     35/   200; Mu= 1.E-01; Perform= 4.452E+00 1.800E+01 / 4.680E+00 1.899E+01 meV; Val= 0/15
+ Epoch     36/   200; Mu= 1.E-02; Perform= 4.450E+00 1.842E+01 / 4.676E+00 1.940E+01 meV; Val= 0/15
+ Epoch     37/   200; Mu= 1.E-02; Perform= 4.365E+00 1.783E+01 / 4.652E+00 1.898E+01 meV; Val= 0/15
+ Epoch     38/   200; Mu= 1.E-02; Perform= 4.312E+00 1.744E+01 / 4.660E+00 1.913E+01 meV; Val= 1/15
+ Epoch     39/   200; Mu= 1.E-02; Perform= 4.253E+00 1.683E+01 / 4.638E+00 1.891E+01 meV; Val= 0/15
+ Epoch     40/   200; Mu= 1.E-02; Perform= 4.202E+00 1.636E+01 / 4.605E+00 1.858E+01 meV; Val= 0/15
+ Epoch     41/   200; Mu= 1.E-02; Perform= 4.163E+00 1.611E+01 / 4.579E+00 1.840E+01 meV; Val= 0/15
+ Epoch     42/   200; Mu= 1.E-02; Perform= 4.128E+00 1.589E+01 / 4.555E+00 1.830E+01 meV; Val= 0/15
+ Epoch     43/   200; Mu= 1.E-02; Perform= 4.093E+00 1.566E+01 / 4.539E+00 1.832E+01 meV; Val= 0/15
+ Epoch     44/   200; Mu= 1.E-02; Perform= 4.065E+00 1.553E+01 / 4.526E+00 1.832E+01 meV; Val= 0/15
+ Epoch     45/   200; Mu= 1.E-02; Perform= 4.040E+00 1.544E+01 / 4.515E+00 1.830E+01 meV; Val= 0/15
+ Epoch     46/   200; Mu= 1.E-02; Perform= 4.015E+00 1.534E+01 / 4.507E+00 1.830E+01 meV; Val= 0/15
+ Epoch     47/   200; Mu= 1.E-02; Perform= 3.991E+00 1.523E+01 / 4.498E+00 1.825E+01 meV; Val= 0/15
+ Epoch     48/   200; Mu= 1.E-02; Perform= 3.970E+00 1.511E+01 / 4.487E+00 1.811E+01 meV; Val= 0/15
+ Epoch     49/   200; Mu= 1.E-02; Perform= 3.951E+00 1.499E+01 / 4.478E+00 1.800E+01 meV; Val= 0/15
+ Epoch     50/   200; Mu= 1.E-02; Perform= 3.935E+00 1.487E+01 / 4.471E+00 1.789E+01 meV; Val= 0/15
+ Epoch     51/   200; Mu= 1.E-02; Perform= 3.920E+00 1.476E+01 / 4.464E+00 1.780E+01 meV; Val= 0/15
+ Epoch     52/   200; Mu= 1.E-02; Perform= 3.906E+00 1.465E+01 / 4.458E+00 1.771E+01 meV; Val= 0/15
+ Epoch     53/   200; Mu= 1.E-02; Perform= 3.893E+00 1.456E+01 / 4.452E+00 1.762E+01 meV; Val= 0/15
+ Epoch     54/   200; Mu= 1.E-02; Perform= 3.881E+00 1.446E+01 / 4.446E+00 1.753E+01 meV; Val= 0/15
+ Epoch     55/   200; Mu= 1.E-02; Perform= 3.869E+00 1.437E+01 / 4.439E+00 1.746E+01 meV; Val= 0/15
+ Epoch     56/   200; Mu= 1.E-02; Perform= 3.857E+00 1.428E+01 / 4.432E+00 1.739E+01 meV; Val= 0/15
+ Epoch     57/   200; Mu= 1.E-02; Perform= 3.843E+00 1.420E+01 / 4.424E+00 1.734E+01 meV; Val= 0/15
+ Epoch     58/   200; Mu= 1.E-02; Perform= 3.833E+00 1.412E+01 / 4.418E+00 1.726E+01 meV; Val= 0/15
+ Epoch     59/   200; Mu= 1.E-02; Perform= 3.823E+00 1.404E+01 / 4.414E+00 1.720E+01 meV; Val= 0/15
+ Epoch     60/   200; Mu= 1.E-02; Perform= 3.814E+00 1.397E+01 / 4.410E+00 1.715E+01 meV; Val= 0/15
+ Epoch     61/   200; Mu= 1.E-02; Perform= 3.806E+00 1.391E+01 / 4.408E+00 1.712E+01 meV; Val= 0/15
+ Epoch     62/   200; Mu= 1.E-02; Perform= 3.798E+00 1.385E+01 / 4.406E+00 1.711E+01 meV; Val= 0/15
+ Epoch     63/   200; Mu= 1.E-02; Perform= 3.790E+00 1.379E+01 / 4.404E+00 1.710E+01 meV; Val= 0/15
+ Epoch     64/   200; Mu= 1.E-02; Perform= 3.783E+00 1.373E+01 / 4.403E+00 1.709E+01 meV; Val= 0/15
+ Epoch     65/   200; Mu= 1.E-02; Perform= 3.777E+00 1.368E+01 / 4.401E+00 1.709E+01 meV; Val= 0/15
+ Epoch     66/   200; Mu= 1.E-02; Perform= 3.770E+00 1.363E+01 / 4.399E+00 1.709E+01 meV; Val= 0/15
+ Epoch     67/   200; Mu= 1.E-02; Perform= 3.764E+00 1.358E+01 / 4.396E+00 1.709E+01 meV; Val= 0/15
+ Epoch     68/   200; Mu= 1.E-02; Perform= 3.758E+00 1.354E+01 / 4.393E+00 1.708E+01 meV; Val= 0/15
+ Epoch     69/   200; Mu= 1.E-02; Perform= 3.752E+00 1.350E+01 / 4.389E+00 1.707E+01 meV; Val= 0/15
+ Epoch     70/   200; Mu= 1.E-02; Perform= 3.746E+00 1.345E+01 / 4.384E+00 1.706E+01 meV; Val= 0/15
+ Epoch     71/   200; Mu= 1.E-02; Perform= 3.741E+00 1.342E+01 / 4.380E+00 1.705E+01 meV; Val= 0/15
+ Epoch     72/   200; Mu= 1.E-02; Perform= 3.735E+00 1.338E+01 / 4.376E+00 1.704E+01 meV; Val= 0/15
+ Epoch     73/   200; Mu= 1.E-02; Perform= 3.730E+00 1.334E+01 / 4.372E+00 1.702E+01 meV; Val= 0/15
+ Epoch     74/   200; Mu= 1.E-02; Perform= 3.725E+00 1.331E+01 / 4.368E+00 1.701E+01 meV; Val= 0/15
+ Epoch     75/   200; Mu= 1.E-02; Perform= 3.720E+00 1.328E+01 / 4.365E+00 1.700E+01 meV; Val= 0/15
+ Epoch     76/   200; Mu= 1.E-02; Perform= 3.715E+00 1.325E+01 / 4.362E+00 1.700E+01 meV; Val= 0/15
+ Epoch     77/   200; Mu= 1.E-02; Perform= 3.711E+00 1.322E+01 / 4.360E+00 1.699E+01 meV; Val= 0/15
+ Epoch     78/   200; Mu= 1.E-02; Perform= 3.706E+00 1.319E+01 / 4.358E+00 1.698E+01 meV; Val= 0/15
+ Epoch     79/   200; Mu= 1.E-02; Perform= 3.701E+00 1.317E+01 / 4.356E+00 1.697E+01 meV; Val= 0/15
+ Epoch     80/   200; Mu= 1.E-02; Perform= 3.697E+00 1.314E+01 / 4.355E+00 1.696E+01 meV; Val= 0/15
+ Epoch     81/   200; Mu= 1.E-02; Perform= 3.693E+00 1.312E+01 / 4.356E+00 1.695E+01 meV; Val= 1/15
+ Epoch     82/   200; Mu= 1.E-02; Perform= 3.689E+00 1.310E+01 / 4.356E+00 1.694E+01 meV; Val= 2/15
+ Epoch     83/   200; Mu= 1.E-02; Perform= 3.685E+00 1.308E+01 / 4.358E+00 1.693E+01 meV; Val= 3/15
+ Epoch     84/   200; Mu= 1.E-02; Perform= 3.681E+00 1.306E+01 / 4.361E+00 1.692E+01 meV; Val= 4/15
+ Epoch     85/   200; Mu= 1.E-02; Perform= 3.678E+00 1.304E+01 / 4.364E+00 1.691E+01 meV; Val= 5/15
+ Epoch     86/   200; Mu= 1.E-02; Perform= 3.674E+00 1.303E+01 / 4.367E+00 1.690E+01 meV; Val= 6/15
+ Epoch     87/   200; Mu= 1.E-02; Perform= 3.671E+00 1.301E+01 / 4.370E+00 1.689E+01 meV; Val= 7/15
+ Epoch     88/   200; Mu= 1.E-02; Perform= 3.667E+00 1.299E+01 / 4.373E+00 1.689E+01 meV; Val= 8/15
+ Epoch     89/   200; Mu= 1.E-02; Perform= 3.664E+00 1.298E+01 / 4.375E+00 1.688E+01 meV; Val= 9/15
+ Epoch     90/   200; Mu= 1.E-02; Perform= 3.661E+00 1.296E+01 / 4.376E+00 1.688E+01 meV; Val=10/15
+ Epoch     91/   200; Mu= 1.E-02; Perform= 3.657E+00 1.295E+01 / 4.376E+00 1.687E+01 meV; Val=11/15
+ Epoch     92/   200; Mu= 1.E-02; Perform= 3.654E+00 1.293E+01 / 4.376E+00 1.686E+01 meV; Val= 0/15
+ Epoch     93/   200; Mu= 1.E-02; Perform= 3.651E+00 1.292E+01 / 4.374E+00 1.686E+01 meV; Val= 0/15
+ Epoch     94/   200; Mu= 1.E-02; Perform= 3.648E+00 1.290E+01 / 4.372E+00 1.686E+01 meV; Val= 0/15
+ Epoch     95/   200; Mu= 1.E-02; Perform= 3.646E+00 1.288E+01 / 4.370E+00 1.685E+01 meV; Val= 0/15
+ Epoch     96/   200; Mu= 1.E-02; Perform= 3.643E+00 1.286E+01 / 4.367E+00 1.685E+01 meV; Val= 0/15
+ Epoch     97/   200; Mu= 1.E-02; Perform= 3.640E+00 1.285E+01 / 4.365E+00 1.685E+01 meV; Val= 0/15
+ Epoch     98/   200; Mu= 1.E-02; Perform= 3.637E+00 1.283E+01 / 4.362E+00 1.685E+01 meV; Val= 0/15
+ Epoch     99/   200; Mu= 1.E-02; Perform= 3.635E+00 1.281E+01 / 4.360E+00 1.686E+01 meV; Val= 0/15
+ Epoch    100/   200; Mu= 1.E-02; Perform= 3.632E+00 1.280E+01 / 4.358E+00 1.686E+01 meV; Val= 0/15
+ Epoch    101/   200; Mu= 1.E-02; Perform= 3.630E+00 1.278E+01 / 4.356E+00 1.686E+01 meV; Val= 0/15
+ Epoch    102/   200; Mu= 1.E-02; Perform= 3.628E+00 1.276E+01 / 4.355E+00 1.686E+01 meV; Val= 0/15
+ Epoch    103/   200; Mu= 1.E-02; Perform= 3.625E+00 1.275E+01 / 4.353E+00 1.686E+01 meV; Val= 0/15
+ Epoch    104/   200; Mu= 1.E-02; Perform= 3.623E+00 1.273E+01 / 4.352E+00 1.686E+01 meV; Val= 0/15
+ Epoch    105/   200; Mu= 1.E-02; Perform= 3.621E+00 1.272E+01 / 4.351E+00 1.685E+01 meV; Val= 0/15
+ Epoch    106/   200; Mu= 1.E-02; Perform= 3.619E+00 1.270E+01 / 4.350E+00 1.685E+01 meV; Val= 0/15
+ Epoch    107/   200; Mu= 1.E-02; Perform= 3.617E+00 1.269E+01 / 4.349E+00 1.684E+01 meV; Val= 0/15
+ Epoch    108/   200; Mu= 1.E-02; Perform= 3.615E+00 1.267E+01 / 4.348E+00 1.683E+01 meV; Val= 0/15
+ Epoch    109/   200; Mu= 1.E-02; Perform= 3.613E+00 1.266E+01 / 4.348E+00 1.682E+01 meV; Val= 0/15
+ Epoch    110/   200; Mu= 1.E-02; Perform= 3.611E+00 1.264E+01 / 4.347E+00 1.681E+01 meV; Val= 0/15
+ Epoch    111/   200; Mu= 1.E-02; Perform= 3.609E+00 1.263E+01 / 4.347E+00 1.679E+01 meV; Val= 0/15
+ Epoch    112/   200; Mu= 1.E-02; Perform= 3.607E+00 1.262E+01 / 4.347E+00 1.678E+01 meV; Val= 1/15
+ Epoch    113/   200; Mu= 1.E-02; Perform= 3.605E+00 1.260E+01 / 4.347E+00 1.677E+01 meV; Val= 2/15
+ Epoch    114/   200; Mu= 1.E-02; Perform= 3.604E+00 1.259E+01 / 4.348E+00 1.675E+01 meV; Val= 3/15
+ Epoch    115/   200; Mu= 1.E-02; Perform= 3.602E+00 1.257E+01 / 4.349E+00 1.674E+01 meV; Val= 4/15
+ Epoch    116/   200; Mu= 1.E-02; Perform= 3.600E+00 1.256E+01 / 4.350E+00 1.673E+01 meV; Val= 5/15
+ Epoch    117/   200; Mu= 1.E-02; Perform= 3.598E+00 1.255E+01 / 4.351E+00 1.671E+01 meV; Val= 6/15
+ Epoch    118/   200; Mu= 1.E-02; Perform= 3.597E+00 1.254E+01 / 4.352E+00 1.670E+01 meV; Val= 7/15
+ Epoch    119/   200; Mu= 1.E-02; Perform= 3.595E+00 1.252E+01 / 4.354E+00 1.670E+01 meV; Val= 8/15
+ Epoch    120/   200; Mu= 1.E-02; Perform= 3.593E+00 1.251E+01 / 4.355E+00 1.669E+01 meV; Val= 9/15
+ Epoch    121/   200; Mu= 1.E-02; Perform= 3.592E+00 1.250E+01 / 4.357E+00 1.668E+01 meV; Val=10/15
+ Epoch    122/   200; Mu= 1.E-02; Perform= 3.590E+00 1.249E+01 / 4.358E+00 1.668E+01 meV; Val=11/15
+ Epoch    123/   200; Mu= 1.E-02; Perform= 3.589E+00 1.247E+01 / 4.359E+00 1.667E+01 meV; Val=12/15
+ Epoch    124/   200; Mu= 1.E-02; Perform= 3.587E+00 1.246E+01 / 4.361E+00 1.667E+01 meV; Val=13/15
+ Epoch    125/   200; Mu= 1.E-02; Perform= 3.586E+00 1.245E+01 / 4.362E+00 1.667E+01 meV; Val=14/15
+ Epoch    126/   200; Mu= 1.E-02; Perform= 3.584E+00 1.244E+01 / 4.363E+00 1.667E+01 meV; Val=15/15
+ Total rmse_05=  13.1054 meV; Total force rmse_=  17.8257 meV/angstrom; train=  12.6294; validation=  16.7932force train=  17.4508; force validation=  20.8993
+ 2025/07/28  08:30:39.00

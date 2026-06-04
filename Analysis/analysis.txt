@@ -1,0 +1,78 @@
+RMSD Analysis :
+1. Compile the rmsdYxstat.cpp by g++/icpc:
+	g++ rmsdYxstat.cpp -o rmsd.x
+2.running the program:
+	rmsd.x trajfile(xyz format) 12 0.0 2.20 300(temperature) rmsdoutputfile(for statical)
+The program would be output the total rmsd value by the format:
+ totalstep   RMSD(two-layer) z-valueRMSD(two-layer)  RMSD(First-layer) z-valueRMSD(First-layer) RMSD(Bonding-Atoms) z-valueRMSD(Bonding-Atoms) Astep temperature
+   18000000   0.13272                0.08378                              0.15865                  0.10651                                0.22464                            0.18699                                      14711578       300
+
+Molecular Orientation Analysis:
+1. Compile the verticalangleud.cpp by g++/icpc:
+	g++ verticalangleud.cpp -o vertical.x
+2.running the program:
+	vertical.x inputfile(xyzformat) nlineperbolck outfile deltazmc eqzmc
+nlineperbolck equals to the number of atoms plus 2.
+outfile is the output of the the angular of CO
+eqzmc denotes the target centroid height, and deltazmc denotes the static error margin (or allowable deviation). For example, if the target centroid height is set to 2.71 Å and deltazmc to 0.025 Å, then CO centroid heights falling within the range 2.685 Å to 2.735 Å will be used to calculate the angle.
+The output would be as follows:
+step       theta
+         6  11.45087
+        20   3.51103
+        29  23.93396
+        35   8.88015
+        57  20.21891
+        62   4.11298
+        70  19.68285
+        84   1.23875
+        90  18.48518
+        99  24.37515
+       100  23.99801
+       102  18.39241
+       103  15.38399
+       115  25.83432
+       127  17.12864
+       134  15.41390
+       143  15.37736
+       144  13.29331
+       145  10.968
+The second column is the angle using in radians.
+
+WHAM3D:
+1. Compile the wham3dpara.c or wham3dpara.cpp by the following command:
+	gcc wham3dpara.c -fopenmp -lm -O2 -o wham3d.x
+	g++ wham3dpara.cpp -fopenmp -O2 -o wham3d.x
+2. Prepare the metadata file and trajectories data for per window by the following format:
+a. metadatfie format:
+	diroftrajectoriesdata  xeq yeq zeq xbias ybias zbias
+diroftrajectoriesdata: the directory of the trajectories data
+xeq, yeq, zeq: the equilibrim position for x,y,z coordination.
+xbias, ybias, zbias: the harmonic potential for x,y,z coordination (kcal/mol/Å^2)
+Example:
+./US-3d/US-9 0 0 2.00202 0 0 184.484
+b.trajectories data format (diroftrajectoriesdata):
+	step x y z 
+Example:
+1000  0.33604802 0.68622121 1.73387108
+1001  0.34725667 0.70116759 1.73368623
+1002  0.36411179 0.71835333 1.74065681
+1003  0.38113546 0.73215656 1.75069766
+1004  0.39373467 0.74327316 1.76231133
+1005  0.40136161 0.75102781 1.77349810
+
+3.running the wham3dpara.x by the following command:
+for wham3dpara.x compiled from wham3dpara.c :
+wham3dpara.x metafile freefile temp type uDim minx maxx num_binsx miny maxy num_binsy minz maxz num_binsz PxNo  PyNo PzNo nproc > pmf.log
+Example:
+wham3dpara.x metadata3d.dat free temp=500 type=0 uDim=3 histx=0.0 1.0 100 histy=0.0 1.0 100 histz=1.6 4.75 126 PxNo PyNo PzNo nproc=32 > pmf.log
+
+
+for wham3dpara.x compiled from wham3dpara.cpp :
+wham3dpara.x metafile freefile temp minx maxx num_binsx miny maxy num_binsy minz maxz num_binsz PxNo  PyNo PzNo nproc > pmf.log
+Example:
+wham3dpara.x metadata3d.dat free 500.0 0.0 1.0 100 0.0 1.0 100 1.60202 4.75202 126 PxNo PyNo PzNo 32 > pmf.log
+
+4. Obtain the PMF from pmf.log by using grep command:
+	grep 'PMFF::' pmf.log > PMF3D.dat
+The reweighted three‑dimensional free energy space was obtained in PMF3D.dat file and user can obtain a two‑dimensional free energy slice at a given height from it.
+wham3d uses OpenMP for parallel acceleration of the WHAM iteration. The user can specify the number of threads via the "nproc" argument.

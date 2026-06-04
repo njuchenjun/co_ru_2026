@@ -1,0 +1,44 @@
+Ensemble
+NVT
+Number of steps
+4000
+Output steps
+1
+Time step(ps)
+0.0005
+Temperature(K)
+900.0
+Couple frequency(cm-1)
+1700
+Lattice constant
+2.740296
+Super Cell
+1    1
+Number of atoms (adsorption)
+14
+Element   Mass(au)        X         Y        Z
+   Ru     101.07      0.79107   2.43599   4.26507
+   Ru     101.07      3.16424   1.06584   4.26507
+   Ru     101.07      0.79107  -0.30431   4.26507
+   Ru     101.07      3.16424  -1.67446   4.26507
+   Ru     101.07      1.58176   1.06581   6.41455
+   Ru     101.07      3.95493  -0.30434   6.41455
+   Ru     101.07      1.58176   3.80611   6.41455
+   Ru     101.07      3.95493   2.43596   6.41455
+   Ru     101.07      0.79117   2.43599   8.47202
+   Ru     101.07      3.16433   1.06584   8.47202
+   Ru     101.07      0.79117  -0.30431   8.47202
+   Ru     101.07      3.16433  -1.67446   8.47202
+   C      12.00000    3.38877   1.07450  10.47202
+   O      15.99491    3.38877   1.07450  11.97202
+Upper bound of z-direction
+   13.47202
+Louer bound of potential energy(eV)
+ -195.00000
+Umbrella sampling
+Window index
+10
+Equilibrium z0 value (A)
+15.5
+Force constant (kcal/mol/A/A) [Ebias = 0.5 * fc * (z - z0) ** 2]
+23.0605

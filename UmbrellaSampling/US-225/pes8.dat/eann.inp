@@ -1,0 +1,27 @@
+  1                              # start_force table for the fit with force(1) or without force(0)
+  1                              # start_wb
+  0                              # start_init
+  0                              # table_coor
+  1                              # table_grid
+  0.0004                         # biase_rmse
+  3                              # maxnumtype !! type of elements
+  22    22                       # maxnumatom  maxneff
+  1                              # nsurf  !! set of coordinates, atoms should keep identical within one set
+  2                              # ipsin 
+  15                             # maxnwave
+  15  15  15                     # nwave
+          100 40                 # cutnum,scutnum  used for neighbour list !! useless
+  20                             # ncycle !! number of fittings
+  3000                           # nloop  !! maximum epoch of each fitting
+  1                              # nbatch
+  19974 19974                    # numpoint  maxnpoint !! total number of configurations; max number in one set
+  18500                          # maxtpoint !! number of configurations used for training
+  1.d0   1.d0                    # perindex   force_perindex
+  6.5d0  6.5d0  6.5d0  6.5d0     # rc
+  60                             # mnl max number of the Embeeding NN 
+  2                              # mnhid max number of the hidden layer of the Embeeding NN
+  1                              # nkpoint
+  1                              # outputneuron
+  'Ru' 2   25  25  0.2           # atomtype name of element  and the structure of the embedding NN  alpha*dier_rs**2  dier_rs
+  'C'  2   25  25  0.2           # atomtype name of element  and the structure of the embedding NN  alpha*dier_rs**2  dier_rs
+  'O'  2   25  25  0.2           # atomtype name of element  and the structure of the embedding NN  alpha*dier_rs**2  dier_rs

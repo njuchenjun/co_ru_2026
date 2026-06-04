@@ -1,0 +1,33 @@
+Ensemble
+NVT
+Number of steps
+30000
+Output steps
+1
+Time step(ps)
+0.0005
+Temperature(K)
+300.0
+Couple frequency(cm-1)
+1700
+Lattice constant
+2.740296
+Super Cell
+1    1
+Number of atoms (adsorption)
+10
+Element   Mass(au)        X         Y        Z
+   Ru     101.07      1.58176   1.06581   6.41455
+   Ru     101.07      3.95493  -0.30434   6.41455
+   Ru     101.07      1.58176   3.80611   6.41455
+   Ru     101.07      3.95493   2.43596   6.41455
+   Ru     101.07      0.79117   2.43599   8.47202
+   Ru     101.07      3.16433   1.06584   8.47202
+   Ru     101.07      0.79117  -0.30431   8.47202
+   Ru     101.07      3.16433  -1.67446   8.47202
+   C      12.00000    0.79117   2.43599  10.47202
+   O      15.99491    0.79117   2.43599  11.97202
+Upper bound of z-direction
+13.47202
+Louer bound of potential energy(eV)
+-195.0
