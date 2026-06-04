@@ -78,7 +78,7 @@ Depending on the specific system setup, calculations are steered through separat
 Routines under `US-225`, `US-445`, and `UnbiasedMD` directories are automated through Makefiles. Move into the corresponding subfolder and compile directly:
 ```bash
 make clean && make
-./md_run.exe # it will the INPUT file in the current directory
+./md_run.exe # it will read the INPUT file in the current directory
 
 ```
 
